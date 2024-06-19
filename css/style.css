@@ -1,0 +1,127 @@
+body {
+  background-image: url("../resources/ocean.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100vw 100vh;
+  color: #41454B;
+  font-size: 40px;
+  font-family: 'Playfair-Display', serif;
+  text-align: center;
+}
+   
+      /* Title and Navbar Section */
+
+
+h1 {
+  margin: 0;
+  font-weight: 800;
+  font-size: 90px;
+  color: #6e7b8b;
+  font-style: italic;
+  font-family: 'Playfair-Display', serif;
+}
+     
+.red {
+  color: #d95a5a;
+}
+
+nav {
+  display: inline-flex;
+  flex-direction: column;
+  font-size: 35px;
+}
+
+a {
+  color: #ebf4f6;
+  text-decoration: none;
+  background-color: #33ccff;
+  border-radius: 90%;
+  box-shadow: 0 8px 16px 0 white;
+}
+
+.button:hover {
+  font-size: 45px;
+}
+
+.button:active {
+  box-shadow: 0 4px 8px 0;
+}
+
+
+
+    /* Mission */
+
+div.mission {
+  display: inline-flex;
+  max-width: 800px;
+  border-radius: 70px;
+  background:rgba(255,255,255, 0.85);
+  margin: 50px
+}
+
+    /* Portfolio */
+
+div.portfolio {
+  display: inline-flex;
+  max-width: 800px;
+  border-radius: 70px;
+  background: rgba(255,255,255, 0.85);
+  margin: 50px;
+}
+
+      /* Crew */
+
+div.crew {
+  display: inline-flex;
+  flex-direction: column;
+  max-width: 800px;
+  border-radius: 70px;
+  background: rgba(255,255,255, 0.85);
+  margin: 50px;
+}
+
+div.crew-names {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+img {
+  max-height: 200px;
+  max-width: 225px;
+}
+
+h2 {
+  font-size: 50px;
+  font-weight: 500;
+  color: #d95a5a;
+}
+
+h5 {
+  font-size: 27px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 20;
+}
+
+.crew p {
+  font-size: 20px;
+}
+
+h4 {
+  margin-bottom: 0;
+  font-weight: normal;
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+h6 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+footer {
+  font-size: 15px;
+}
