@@ -69,6 +69,10 @@ div.portfolio {
   margin: 50px;
 }
 
+.portfolio p {
+  font-size: 20px;
+}
+
       /* Crew */
 
 div.crew {
